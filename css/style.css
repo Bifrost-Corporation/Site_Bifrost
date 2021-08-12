@@ -184,9 +184,9 @@ nav{
 
 .conheca{
     text-align: center;
-    font-weight:400;
+    font-weight:500;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .container-flex > .card{
     /*flex: 1 1 150px;*/
@@ -241,18 +241,6 @@ nav{
 
 /* CONTATO */
 
-/*.container-grid{
-    flex-wrap: wrap;
-    max-width: 1000px;
-    gap: 1rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    box-shadow: 0 0 1em #dcdcdc;
-    
-}*/
-/* Contato */
-
 .container-grid{
     display: flex;
     flex-wrap: wrap;
@@ -269,6 +257,7 @@ nav{
     border:0;
     box-shadow: 0 0 1em #dcdcdc;
 }
+
 .iconesSuporte{
     margin-top:20px;
     margin-bottom: 20px;
@@ -276,11 +265,17 @@ nav{
     display: flex;
 
 }
+
 .textSuporte{
     margin-left: 8px;
     display:list-item;
     list-style: none;
 }
+
+.titulo-Suporte{
+    font-weight: 500;
+}
+
 .endereco{
     min-width: 60%;
     background-color: #13d4a4;
@@ -296,6 +291,7 @@ nav{
     border:0;
     box-shadow: 0 0 1em #dcdcdc;
 }
+
 .formContrato{
 
     text-align: space-around;
@@ -312,6 +308,7 @@ nav{
     font-weight:400;
     margin-bottom:10px;
 }
+
 .textContrato{
     text-align: center;
 }
@@ -329,12 +326,15 @@ nav{
 
 .inputType1{
 
+    margin-top: 10px;
+    margin-bottom: 10px;
     outline: 1px solid #dcdcdc;
     padding: 15px;
-    width: 49.677%;
+    width: 100%;
     border:0px;
 
 }
+
 .assunto{
     margin-top: 20px;
     width: 100%;
@@ -342,6 +342,7 @@ nav{
     border: 0px;
     outline: 1px solid #dcdcdc;
 }
+
 .textArea{
     margin-top: 20px;
     width: 100%;
@@ -350,11 +351,13 @@ nav{
     border: 0px;
     outline: 1px solid #dcdcdc;
 }
+
 .divBtn{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 hr{
     background: linear-gradient(to right, #8400fc , #0411be,#08e299);
     height: 5px;
@@ -362,100 +365,15 @@ hr{
 
 }
 
-/* MEDIAS */
-@media(max-width: 1080px) {
-    html {
-        font-size:93.75%;
-    }
-    .logo{
-        width: 93.75%;
-    }
-}
 
-@media (max-width:765px){
 
-    .icones{
-
-        width:100%;
-
-    }
-    .endereco{
-        width: 100%;
-    }
-}
-@media (max-width:999px){
-    body{
-        overflow: hidden;
-    }
-    .nav-list{
-        position: absolute;
-        top: 10vh;
-        right:0;
-        width:50vw;
-        height: 92vh;
-        background: #f3f3f3;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-    .nav-list li{
-        margin-left: 0px;
-        opacity: 0;
-    }
-    .mobile-menu{
-        display: block;
-    }
-    .nav-list.active{
-        transform: translateX(0);
-    }
-    @keyframes navLinkFade {
-        from{
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
-    .mobile-menu.active .line1 {
-        transform: rotate(-45deg) translate(-8px, 8px);
-      }
-
-      .mobile-menu.active .line2 {
-        opacity: 0;
-      }
-
-      .mobile-menu.active .line3 {
-        transform: rotate(45deg) translate(-3px, -5px);
-      }
-}
-
-@media(max-width: 720px) {
-    html {
-
-font-size:87.5%;
-    }
-
-    .logo{
-        width: 87.5%;
-    }
-    .icones{
-        width:100%;
-    }
-    .inputType1{
-
-        width: 100%;
-
-    }
-    .linhaFormulario{
-        display: block;
-    }
-}
 
 /* O CARD HORIZONTAL */
+
+
+
+
+
 .card-horizontal {
     display: flex;
     flex-direction: row;
@@ -469,41 +387,17 @@ font-size:87.5%;
     align-items: center;
 }
 
-@media(max-width: 840px) {
-    .card-horizontal {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .card-horizontal2 {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
 
-
-.Img-Card {
-    align-items: center;
-    width: 20%
-}
-
-.Img-Card > img {
-    object-fit: cover;
-    border-radius: 2rem;
-    display: flex;
-    width: 100%
-}
-
-
-.hrz-text-card {
-    text-align: justify;
-    width: 70%;
-    padding: 5rem 2rem;
-}
 
 
 
 
 /* THE RODAPE */
+
+
+
+
+
 
 .footer-1 {
     display: flex;
@@ -607,7 +501,139 @@ font-size:87.5%;
 }
 
 
+.Img-Card {
+    align-items: center;
+    width: 20%
+}
+
+.Img-Card > img {
+    object-fit: cover;
+    border-radius: 2rem;
+    display: flex;
+    width: 100%
+}
+
+
+.hrz-text-card {
+    text-align: justify;
+    width: 70%;
+    padding: 5rem 2rem;
+}
+
+
+
+.footer-2{
+    /* caso queira aquela barrinha do rodapé, usa isso aq */
+}
+
+
+
+
+
+
+
+
+/* MEDIAS */
+
+@media(max-width: 1080px) {
+    html {
+        font-size:93.75%;
+    }
+    .logo{
+        width: 93.75%;
+    }
+}
+@media (max-width:999px){
+    body{
+        overflow: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 10vh;
+        right:0;
+        width:50vw;
+        height: 92vh;
+        background: #f3f3f3;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav-list.active{
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+      }
+
+      .mobile-menu.active .line2 {
+        opacity: 0;
+      }
+
+      .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-3px, -5px);
+      }
+    .linhaFormulario{
+        display: block;
+    }
+}
+
+@media (max-width:765px){
+
+    .icones{
+
+        width:100%;
+
+    }
+    .endereco{
+        width: 100%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+
+font-size:87.5%;
+    }
+
+    .logo{
+        width: 87.5%;
+    }
+    .icones{
+        width:100%;
+    }
+    
+}
+
+
+
 @media(max-width: 840px) {
+    .card-horizontal {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-horizontal2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .footer-1 {
         flex-direction: column;
     
@@ -634,11 +660,6 @@ font-size:87.5%;
 }
 
 
-
-
-.footer-2{
-    /* caso queira aquela barrinha do rodapé, usa isso aq */
-}
 
 
 
