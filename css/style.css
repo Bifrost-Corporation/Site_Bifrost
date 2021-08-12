@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: Lexend, sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #282b30;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #5711fb;
+    border-radius: 4px;
+  }
+
+
+body{
+    background: #f3f3f3;
+}
+
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+
+/* NAV, MENU SEI LÁ */
+
+.logo{
+    min-width:170px;
+    max-width: 200px;
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+.mobile-menu div {
+    height: 2px;
+    width:32px;
+    margin: 6px;
+    background-color: #287add;
+    transition: 0.3s;
+}
+.nav-links{
+    color:#000000;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.nav-links:hover{
+    color:#287add;
+    opacity: 0.6;
+}
+
+.nav-list{
+    list-style: none;
+    display:flex;
+}
+
+.nav-list li{
+    
+    margin-left:32px
+}
+.btn-saberMais{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: #f3f3f3;
+    height:10vh;
+    position: fixed;
+    
+
+}
+/* ACABOU O MENU*/
+
+/* TLGD O BANNER? ENT */
+
+.inicio{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background:url(../images/pathum-danthanarayana-KLbUohEjb04-unsplash.jpg) no-repeat center center;*/
+    background-color: #8400fc;  /*For browsers that do not support gradients */
+    /*background-image: linear-gradient(to bottom right, rgb(139, 13, 223), rgb(98, 0, 255));*/
+    background-size: cover;
+    height: 95vh;
+    
+}
+.Slogan-topo{
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-weight:500;
+}
+.text-Topo{
+
+}
+.btn-saberMais{
+    padding: 18px;
+    display: block;
+    background-color:#0411be;
+    max-width: 70px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #f3f3f3;
+    margin-top: 5%;
+}
+.Content-text{
+    width: 50%;
+    color: #f3f3f3;
+}
+.Content-text p{
+    font-size: 1.25rem;
+}
+.list-Social{
+    flex-direction: column;
+    width: 20px;
+}
+.list-Social svg{
+    margin-bottom: 2rem;
+}
+.st0:hover{
+    transition: 0.5s;
+    fill: #13d4a4;
+}
+.list-Social{
+    list-style: none;
+}
+
+/* ENT O BANNER ACABOU, MAS EU N ACABEI AINDA ENT N ACABOU*/
+
+.fraseTopo{
+    justify-content: center;
+    align-items: center;
+    background-color:#f3f3f3;
+    padding: 20px;
+    max-width:900px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
+
+.container-flex{
+    padding-bottom: 50px;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin:2% auto;
+    gap: 2rem;
+
+}
+
+.conheca{
+    text-align: center;
+    font-weight:400;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.container-flex > .card{
+    /*flex: 1 1 150px;*/
+}
+.card{
+   
+    max-width: 250px;
+    padding:40px 10px ;
+    justify-content: center;
+    text-align: center;
+    background: #f7f7f7;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+.card:hover{
+    transition: 0.7s;
+}
+.titulo-card{
+    font-weight: 500;
+    margin-top:20px;
+
+}
+.text-card{
+    margin-top:5%;
+    color: #1d1d1d;
+
+
+}
+.Img-card-topo{
+
+    border-radius:0px;
+    max-width: 40%;
+}
+
+/* AGORA ACABOU O CSS, MAS ISSO N É UM FIM, PQ O SITE N TA PRONTO, TA LONGE DE TA PRONTO, VAI TER MT COISA AINDA*/
+
+/* CONTAINER PAI CORUJA */
+
+.tituloPaicoruja{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.Paicoruja{
+    padding: 2%;
+    font-weight:400;
+}
+
+
+
+/* EQUIPE DE DESENVOLVIMENTO*/
+
+/* CONTATO */
+
+/*.container-grid{
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    box-shadow: 0 0 1em #dcdcdc;
+    
+}*/
+/* Contato */
+
+.container-grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:2% auto;
+    gap: 1rem;
+}
+
+.icones{
+    background:#f7f7f7;
+    padding:40px;
+    width:38%;
+    height: 300px;
+    border:0;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+.iconesSuporte{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:100%;
+    display: flex;
+
+}
+.textSuporte{
+    margin-left: 8px;
+    display:list-item;
+    list-style: none;
+}
+.endereco{
+    min-width: 60%;
+    background-color: #13d4a4;
+    height: 300px;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+
+.mapa{
+    max-width: 100%;
+    width: 100%;
+    min-width:300px;
+    height: 300px;
+    border:0;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+.formContrato{
+
+    text-align: space-around;
+    background:#f7f7f7;
+    padding: 5%;
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+
+.tituloContrato{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:400;
+    margin-bottom:10px;
+}
+.textContrato{
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 40px;
+    justify-content:center;
+}
+
+.linhaFormulario{
+
+    margin:0 auto;
+    width:80%;
+}
+
+.inputType1{
+
+    outline: 1px solid #dcdcdc;
+    padding: 15px;
+    width: 49.677%;
+    border:0px;
+
+}
+.assunto{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    outline: 1px solid #dcdcdc;
+}
+.textArea{
+    margin-top: 20px;
+    width: 100%;
+    padding:15px ;
+    padding-bottom: 50px;
+    border: 0px;
+    outline: 1px solid #dcdcdc;
+}
+.divBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    background: linear-gradient(to right, #8400fc , #0411be,#08e299);
+    height: 5px;
+    width: 100%;
+
+}
+
+/* MEDIAS */
+@media(max-width: 1080px) {
+    html {
+        font-size:93.75%;
+    }
+    .logo{
+        width: 93.75%;
+    }
+}
+
+@media (max-width:765px){
+
+    .icones{
+
+        width:100%;
+
+    }
+    .endereco{
+        width: 100%;
+    }
+}
+@media (max-width:999px){
+    body{
+        overflow: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 10vh;
+        right:0;
+        width:50vw;
+        height: 92vh;
+        background: #f3f3f3;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav-list.active{
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+      }
+
+      .mobile-menu.active .line2 {
+        opacity: 0;
+      }
+
+      .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-3px, -5px);
+      }
+}
+
+@media(max-width: 720px) {
+    html {
+
+font-size:87.5%;
+    }
+
+    .logo{
+        width: 87.5%;
+    }
+    .icones{
+        width:100%;
+    }
+    .inputType1{
+
+        width: 100%;
+
+    }
+    .linhaFormulario{
+        display: block;
+    }
+}
+
+/* O CARD HORIZONTAL */
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    align-items: center;
+}
+.card-horizontal2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10%;
+    align-items: center;
+}
+
+@media(max-width: 840px) {
+    .card-horizontal {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-horizontal2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+.Img-Card {
+    align-items: center;
+    width: 20%
+}
+
+.Img-Card > img {
+    object-fit: cover;
+    border-radius: 2rem;
+    display: flex;
+    width: 100%
+}
+
+
+.hrz-text-card {
+    text-align: justify;
+    width: 70%;
+    padding: 5rem 2rem;
+}
+
+
+
+
+/* THE RODAPE */
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #f3f3f3;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    background-color: #282b30;
+    color: white;
+
+    border-bottom-width: 2rem;
+    border-bottom-style:solid;
+    border-bottom-color:#5711fb
+}
+
+
+
+.bifrost-img {
+    height: 4rem;
+    width: auto;
+    margin: 0;
+}
+
+.div-1 h1 {
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+
+.div-1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-2{
+    text-align: left;
+}
+.div-2 ul li {
+    list-style:none;
+}
+.div-2 ul li a{
+    color:#f3f3f3;
+}
+
+.div-2 h1 {
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+.div-3 h1 {
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+
+.div-3{
+    text-align: right;
+}
+
+
+
+.div-3  {
+    /* background-color: #b0b0b0; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    list-style-type: none;
+}
+
+.div-3 .rodape-social svg {
+    width: 1.5rem;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.newsletter input{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.newsletter button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+    background-color: #0411be;
+    color: #f3f3f3;
+}
+
+
+@media(max-width: 840px) {
+    .footer-1 {
+        flex-direction: column;
+    
+    }
+    .footer-1 .div-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-2{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-3{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-3 .newsletter{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+.footer-2{
+    /* caso queira aquela barrinha do rodapé, usa isso aq */
+}
+
+
+
+
+
+
+
