@@ -220,7 +220,6 @@ nav{
     max-width: 40%;
 }
 
-/* AGORA ACABOU O CSS, MAS ISSO N É UM FIM, PQ O SITE N TA PRONTO, TA LONGE DE TA PRONTO, VAI TER MT COISA AINDA*/
 
 /* CONTAINER PAI CORUJA */
 
@@ -234,6 +233,75 @@ nav{
     padding: 2%;
     font-weight:400;
 }
+
+/* O CARD HORIZONTAL */
+.card-horizontal {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 12% ;
+    align-items: center;
+}
+.card-horizontal2 {
+    background-color: #e0e6eb;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 3rem 11% ;
+    align-items: center;
+}
+
+@media(max-width: 840px) {
+    .card-horizontal {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem  1rem;
+    }
+    .card-horizontal2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+.Img-Card-4-3 {
+    align-items: center;
+    width: 30%
+}
+
+.Img-Card-16-9 {
+    align-items: center;
+    width: 50%
+}
+
+
+.Img-Card-16-9 img {
+    object-fit: cover;
+    /* border-radius: 2rem; */
+    display: flex;
+    max-width: 100%
+}
+
+.Img-Card-4-3 img {
+    object-fit: cover;
+    /* border-radius: 2rem; */
+    display: flex;
+    max-width: 100%
+}
+
+
+.hrz-text-card {
+    text-align: justify;
+    width: 40%;
+    padding: 5rem 2rem;
+}
+.hrz-text-card h1{
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+
 
 
 
@@ -453,51 +521,6 @@ font-size:87.5%;
     .linhaFormulario{
         display: block;
     }
-}
-
-/* O CARD HORIZONTAL */
-.card-horizontal {
-    display: flex;
-    flex-direction: row;
-    padding: 10%;
-    align-items: center;
-}
-.card-horizontal2 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 10%;
-    align-items: center;
-}
-
-@media(max-width: 840px) {
-    .card-horizontal {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .card-horizontal2 {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
-
-
-.Img-Card {
-    align-items: center;
-    width: 20%
-}
-
-.Img-Card > img {
-    object-fit: cover;
-    border-radius: 2rem;
-    display: flex;
-    width: 100%
-}
-
-
-.hrz-text-card {
-    text-align: justify;
-    width: 70%;
-    padding: 5rem 2rem;
 }
 
 
