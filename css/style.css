@@ -142,14 +142,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*background:url(../images/pathum-danthanarayana-KLbUohEjb04-unsplash.jpg) no-repeat center center;*/
-    background:url(../images/2247539-abstract-with-geometric-forms-product-presentation-mock-up-design-vector-illustration-vetor.jpg);
-    background-size: cover;
-     /*For browsers that do not support gradients */
+         /*For browsers that do not support gradients */
     /*background-image: linear-gradient(to bottom right, rgb(139, 13, 223), rgb(98, 0, 255));*/
-    background-size: cover;
     height: 95vh;
-    
+}
+
+.img-banner{
+    background:url(../images/2247539-abstract-with-geometric-forms-product-presentation-mock-up-design-vector-illustration-vetor.jpg) no-repeat center center;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 .Slogan-topo{
     

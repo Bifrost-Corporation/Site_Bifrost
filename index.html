@@ -180,12 +180,15 @@
             window.addEventListener("scroll", function () {
                 var nav = document.querySelector("nav");
                 nav.classList.toggle("sticky", window.scrollY > 0);
-
-
+            })
+            window.addEventListener("scroll", function () {
+                var bgImagem = document.querySelector(".img-banner")
+                bgImagem.style.webkitFilter = " blur(" + (window.scrollY / 30) + "px)"
             })
         </script>
     </header>
     <main id="Inicio" class="inicio">
+        <div class="img-banner"></div>
         <div class="Content-text">
             <p class="text-Topo">Bem Vindo a Bifrost</p>
             <h1 class="Slogan-topo">Conectando Mundos</h1>
