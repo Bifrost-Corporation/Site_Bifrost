@@ -50,6 +50,15 @@ p{
     min-width:200px;
     max-width: 200px;
 }
+.sticky .logo .st0{fill:#040C28;}
+.sticky .logo .st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.sticky .logo .st2{fill:#040C28;}
+.sticky .logo .st3{fill:#2BD684;}
+.sticky .logo .st4{fill:#2AB2DB;}
+.sticky .logo .st5{fill:#5724E2;}
+.sticky .logo .st6{fill:#2735E0;}
+.sticky .logo .st7{fill:#287ADD;}
+.sticky .logo .st8{clip-path:url(#SVGID_4_);fill:none;stroke:#287ADD;stroke-width:8;stroke-miterlimit:10;}
 .mobile-menu{
     cursor: pointer;
     display: none;
@@ -122,15 +131,7 @@ nav{
     transition: 0.3s;
 }
 
-    .sticky .logo .st0{fill:#040C28;}
-	.sticky .logo .st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.sticky .logo .st2{fill:#040C28;}
-	.sticky .logo .st3{fill:#2BD684;}
-	.sticky .logo .st4{fill:#2AB2DB;}
-	.sticky .logo .st5{fill:#5724E2;}
-	.sticky .logo .st6{fill:#2735E0;}
-	.sticky .logo .st7{fill:#287ADD;}
-	.sticky .logo .st8{clip-path:url(#SVGID_4_);fill:none;stroke:#287ADD;stroke-width:8;stroke-miterlimit:10;}
+
 
 /* ACABOU O MENU*/
 
@@ -142,7 +143,8 @@ nav{
     align-items: center;
     justify-content: space-around;
     /*background:url(../images/pathum-danthanarayana-KLbUohEjb04-unsplash.jpg) no-repeat center center;*/
-    background-color: #297add;
+    background:url(../images/2247539-abstract-with-geometric-forms-product-presentation-mock-up-design-vector-illustration-vetor.jpg);
+    background-size: cover;
      /*For browsers that do not support gradients */
     /*background-image: linear-gradient(to bottom right, rgb(139, 13, 223), rgb(98, 0, 255));*/
     background-size: cover;
@@ -166,14 +168,17 @@ nav{
     width: 20%;
     text-align: center;
     display:block;
+    border: 1px solid #5711fb;
     margin-top:30px;
     outline: none;
     color: #f7f7f7;
-    background: #282b30;
+    background: #297add;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
+    transition: 0.8s ease;
 }
+
 .Content-text{
     width: 50%;
     color: #f3f3f3;
@@ -202,10 +207,9 @@ nav{
     
     justify-content: center;
     align-items: center;
-    background-color:#f3f3f3;
     padding: 20px;
-    max-width:900px;
-    margin-top: 2%;
+    width: 100%;
+    margin-top: 1%;
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -213,14 +217,25 @@ nav{
 }
 
 /* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
-
+.sobre{
+    background-color: #f3f3f3;
+}
+.servicos{
+    
+}
+.equipe{
+    background-color: #f3f3f3;
+}
 .container-flex{
-    padding-bottom: 50px;
+    padding:6% auto;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 3rem;
     justify-content:center;
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
-    margin:2% auto;
+    max-width: 100%;
+    margin:1% auto;
     gap: 2rem;
 
 }
@@ -228,12 +243,27 @@ nav{
 .conheca{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-weight:500;
+    font-weight:600;
     margin-top: 5%;
     margin-bottom: 2%;
 }
 .container-flex > .card{
     /*flex: 1 1 150px;*/
+}
+.cardEquipe{
+    max-width: 250px;
+    padding:40px 10px ;
+    justify-content: center;
+    border-bottom: 5px solid #287add;
+    text-align: center;
+    background: #f7f7f7;
+    box-shadow: 0 0 1em #dcdcdc;
+    transition: 0.7s;
+}
+.cardEquipe:hover{
+   
+    
+    box-shadow: 0 0 2em #bebebe;
 }
 .card{
    
@@ -243,17 +273,25 @@ nav{
     text-align: center;
     background: #f7f7f7;
     box-shadow: 0 0 1em #dcdcdc;
+    transition: 0.7s;
+}
+.card:hover{
+   
+    
+    box-shadow: 0 0 2em #bebebe;
 }
 .servico1{
     background: #f7f7f7;
+    
     border-radius: 5px;
     border-top: 5px solid #24c49c;
     transition: 0.5s ease ;
     
 }
+
 .servico2{
     border-radius: 5px;
-    background-color: #f7f7f7;
+    background:#f7f7f7;
     border-top: 5px solid #287add;
     transition: 0.7s;
     
@@ -275,6 +313,10 @@ nav{
 
     border-radius:0px;
     max-width: 40%;
+}
+.Img-card-equipe{
+    border-radius:180px;
+    max-width: 70%;
 }
 
 
@@ -388,11 +430,12 @@ nav{
 /* CONTATO */
 
 .container-grid{
+    background-color: #f3f3f3;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
-    margin:2% auto;
-    gap: 1rem;
+    margin:0 12%;
+    padding-bottom: 5rem;
+    gap: 0rem;
 }
 
 .icones{
@@ -402,7 +445,7 @@ nav{
     gap: 1rem;
     background:#f7f7f7;
     padding:40px;
-    width:38%;
+    width:40%;
     height: 300px;
     border:0;
     box-shadow: 0 0 1em #dcdcdc;
@@ -427,7 +470,7 @@ nav{
 
 .endereco{
     min-width: 60%;
-    background-color: #13d4a4;
+    
     height: 300px;
     box-shadow: 0 0 1em #dcdcdc;
 }
@@ -587,6 +630,7 @@ hr{
 }
 
 .div-2{
+    
     text-align: left;
 }
 .div-2 ul li {
@@ -694,6 +738,11 @@ hr{
     .logo{
         width: 93.75%;
     }
+    .btn-saberMais{
+
+        width: 30%;
+        
+    }
 }
 @media (max-width:999px){
     body{
@@ -701,14 +750,14 @@ hr{
     }
     .nav-list{
         position: absolute;
-        top: 10vh;
+        top: 12vh;
         right:0;
         width:50vw;
         height: 92vh;
         background: #f3f3f3;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content:space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -803,6 +852,11 @@ hr{
         align-items: center;
         width: 60%
     }
+    .btn-saberMais{
+
+        width: 40%;
+        
+    }
 }
 @media (max-width:765px){
 
@@ -813,6 +867,9 @@ hr{
     }
     .endereco{
         width: 100%;
+    }
+    .container-grid{
+        margin:0;
     }
 }
 
@@ -836,6 +893,11 @@ font-size:87.5%;
     .Img-Card-16-9 {
         align-items: center;
         width: 100%
+    }
+    .btn-saberMais{
+
+        width: 50%;
+        
     }
 }
 
