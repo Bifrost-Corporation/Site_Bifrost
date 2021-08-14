@@ -80,7 +80,7 @@ p{
 }
 
 .nav-links:hover{
-    color:#287add;
+    
     opacity: 0.6;
 }
 
@@ -148,7 +148,7 @@ nav{
 }
 
 .img-banner{
-    background:url(../images/2247539-abstract-with-geometric-forms-product-presentation-mock-up-design-vector-illustration-vetor.jpg) no-repeat center center;
+    background:url(../images/5803426.jpg) no-repeat center center;
     z-index: -1;
     position: absolute;
     height: 100%;
@@ -172,7 +172,7 @@ nav{
     width: 20%;
     text-align: center;
     display:block;
-    border: 1px solid #5711fb;
+    border: 1px solid #297add;
     margin-top:30px;
     outline: none;
     color: #f7f7f7;
@@ -222,10 +222,12 @@ nav{
 
 /* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
 .sobre{
-    background-color: #f3f3f3;
+    background:url(../images/geometric-composition.jpg) no-repeat center center;
+    background-size: cover;
 }
 .servicos{
-    
+    background-color: #f3f3f3;
+    background-size: cover;
 }
 .equipe{
     background-color: #f3f3f3;
@@ -271,6 +273,7 @@ nav{
 }
 .card{
    
+    border-radius: 5px;
     max-width: 250px;
     padding:40px 10px ;
     justify-content: center;
