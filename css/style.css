@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 html{
     overflow-y: scroll;
@@ -80,7 +81,7 @@ p{
 }
 
 .nav-links:hover{
-    color:#287add;
+    
     opacity: 0.6;
 }
 
@@ -148,7 +149,7 @@ nav{
 }
 
 .img-banner{
-    background:url(../images/2247539-abstract-with-geometric-forms-product-presentation-mock-up-design-vector-illustration-vetor.jpg) no-repeat center center;
+    background:url(../images/5803426.jpg) no-repeat center center;
     z-index: -1;
     position: absolute;
     height: 100%;
@@ -172,7 +173,7 @@ nav{
     width: 20%;
     text-align: center;
     display:block;
-    border: 1px solid #5711fb;
+    border: 1px solid #297add;
     margin-top:30px;
     outline: none;
     color: #f7f7f7;
@@ -222,13 +223,18 @@ nav{
 
 /* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
 .sobre{
-    background-color: #f3f3f3;
+    backdrop-filter: blur(10px);
+    background:url(../images/geometric-composition.jpg) no-repeat center center;
+    background-size: cover;
 }
 .servicos{
-    
+    background-color: #f3f3f3;
+    background-size: cover;
 }
 .equipe{
-    background-color: #f3f3f3;
+    background-color: #f7f7f7;
+    background-size: cover;
+    backdrop-filter: blur(10px);
 }
 .container-flex{
     padding:6% auto;
@@ -251,38 +257,24 @@ nav{
     margin-top: 5%;
     margin-bottom: 2%;
 }
-.container-flex > .card{
-    /*flex: 1 1 150px;*/
-}
-.cardEquipe{
-    max-width: 250px;
-    padding:40px 10px ;
-    justify-content: center;
-    border-bottom: 5px solid #287add;
-    text-align: center;
-    background: #f7f7f7;
-    box-shadow: 0 0 1em #dcdcdc;
-    transition: 0.7s;
-}
-.cardEquipe:hover{
-   
-    
-    box-shadow: 0 0 2em #bebebe;
-}
+
 .card{
    
+    border-radius: 5px;
     max-width: 250px;
     padding:40px 10px ;
     justify-content: center;
     text-align: center;
-    background: #f7f7f7;
+    background:#f7f7f7;
     box-shadow: 0 0 1em #dcdcdc;
     transition: 0.7s;
 }
+
 .card:hover{
    
     
-    box-shadow: 0 0 2em #bebebe;
+    background:#f7f7f7;
+    
 }
 .servico1{
     background: #f7f7f7;
@@ -430,6 +422,125 @@ nav{
 
 
 /* EQUIPE DE DESENVOLVIMENTO*/
+
+
+
+.section-equipe{
+    position: relative;
+    background:url(../images/geometric-composition.jpg) no-repeat center center;
+    background-size: cover;
+    min-height:150vh ;
+    justify-content: center;
+
+
+    
+}
+.container{
+    
+    z-index: 1;
+    align-items: center;
+    position: relative;
+    display: flex;
+    max-width:100%;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;
+    justify-content: center;
+    
+    
+
+}
+.container .card-equipe{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #f7f7f7;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 1em #dcdcdc;
+}
+.container .card-equipe .content{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.container .card-equipe:hover .content{
+    
+    opacity:1;
+    transform: translateY(-30px);
+}
+.container .card-equipe .content .imgBx{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.25);
+}
+.container .card-equipe .content .imgBx img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card-equipe .content .contentBx .tituloCardEquipe{
+    color: #646464;
+    margin:20px 0 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    
+    
+}
+.container .card-equipe .content .contentBx .tituloCardEquipe span{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: initial;
+}
+.container .card-equipe .sci{
+    position: absolute;
+    bottom:-10px;
+    display:flex;
+}
+.container .card-equipe .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s ease;
+    opacity: 0;
+    transition-delay: calc(0.1% * var(--i));
+}
+.container .card-equipe:hover .sci li{
+   
+    opacity: 1;
+    transform: translateY(25px);
+    
+}
+.container .card-equipe .sci li a{
+    color: #1d1d1d;
+    font-size: 20px;
+}
+.container .card-equipe .sci li a:hover{
+    color: #297add;
+    font-size: 20px;
+}
+
+
+
+
+
+
 
 /* CONTATO */
 
