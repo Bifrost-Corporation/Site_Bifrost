@@ -51,15 +51,13 @@ p{
     min-width:200px;
     max-width: 200px;
 }
-.sticky .logo .st0{fill:#040C28;}
-.sticky .logo .st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-.sticky .logo .st2{fill:#040C28;}
-.sticky .logo .st3{fill:#2BD684;}
-.sticky .logo .st4{fill:#2AB2DB;}
-.sticky .logo .st5{fill:#5724E2;}
-.sticky .logo .st6{fill:#2735E0;}
-.sticky .logo .st7{fill:#287ADD;}
-.sticky .logo .st8{clip-path:url(#SVGID_4_);fill:none;stroke:#287ADD;stroke-width:8;stroke-miterlimit:10;}
+.sticky .logo .st0{fill:#040C28; transition: 0.5s;}
+.sticky .logo .st1{fill:#2BD684; transition: 0.5s;}
+.sticky .logo .st2{fill:#2AB2DB; transition: 0.5s;}
+.sticky .logo .st3{fill:#5724E2; transition: 0.5s;}
+.sticky .logo .st4{fill:#2735E0; transition: 0.5s;}
+.sticky .logo .st5{fill:#287ADD; transition: 0.5s;}
+.sticky .logo .st6{fill:none;stroke:#287ADD;stroke-width:8;stroke-miterlimit:10; transition: 0.5s;}
 .mobile-menu{
     cursor: pointer;
     display: none;
@@ -111,7 +109,9 @@ nav{
 }
 .sticky{
     padding: 5px;
-    background-color: #f7f7f7;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+
 }
 .sticky .nav-links{
     color:#1d1d1d;
@@ -165,9 +165,6 @@ nav{
     letter-spacing: 0px;
     
 }
-.text-Topo{
-
-}
 .btn-saberMais{
 
     width: 20%;
@@ -195,15 +192,19 @@ nav{
     flex-direction: column;
     width: 20px;
 }
-.list-Social svg{
+.list-Social li{
+    list-style: none;
+    
+}
+.list-Social li .fa{
+    color: white;
     margin-bottom: 2rem;
 }
-.st0:hover{
-    transition: 0.5s;
-    fill: #13d4a4;
-}
-.list-Social{
-    list-style: none;
+
+
+.list-Social li .fa:hover{
+    color: #24c49c;
+    transition: 0.7s;
 }
 
 /* ENT O BANNER ACABOU, MAS EU N ACABEI AINDA ENT N ACABOU*/
@@ -259,13 +260,13 @@ nav{
 }
 
 .card{
-   
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
     border-radius: 5px;
     max-width: 250px;
     padding:40px 10px ;
     justify-content: center;
     text-align: center;
-    background:#f7f7f7;
     box-shadow: 0 0 1em #dcdcdc;
     transition: 0.7s;
 }
@@ -709,7 +710,7 @@ hr{
 
 .footer-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 3rem;
