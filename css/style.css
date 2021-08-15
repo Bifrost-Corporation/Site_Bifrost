@@ -605,7 +605,7 @@ nav{
     text-align: space-around;
     background:#f7f7f7;
     padding: 5%;
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     box-shadow: 0 0 1em #dcdcdc;
 }
@@ -628,16 +628,27 @@ nav{
 
 .linhaFormulario{
 
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 15px;
+    align-items: center;
     margin:0 auto;
-    width:80%;
+    width:90%;
+}
+.linhaFormulario i{
+    margin-right:10px;
+    font-size: 15px;
+    color: #287add;
 }
 
 .inputType1{
 
     margin-top: 10px;
     margin-bottom: 10px;
+    padding:15px ;
+    background-color: transparent;
     outline: 1px solid #dcdcdc;
-    padding: 15px;
+    border-bottom: 1px solid #1d1d1d;
     width: 100%;
     border:0px;
 
@@ -648,7 +659,8 @@ nav{
     width: 100%;
     padding: 15px;
     border: 0px;
-    outline: 1px solid #dcdcdc;
+    
+
 }
 
 .textArea{
@@ -658,8 +670,9 @@ nav{
     padding-bottom: 50px;
     border: 0px;
     outline: 1px solid #dcdcdc;
+    border:0px;
+    background-color: transparent;
 }
-
 .divBtn{
     display: flex;
     align-items: center;
