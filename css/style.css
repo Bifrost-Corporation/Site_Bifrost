@@ -196,13 +196,22 @@ nav{
     list-style: none;
     
 }
-.list-Social li .fa{
+.list-Social li a i{
+    color: white;
+    margin-bottom: 2rem;
+}
+.insta{
     color: white;
     margin-bottom: 2rem;
 }
 
+.insta:hover{
+    color: #24c49c;
+    transition: 0.7s;
+}
 
-.list-Social li .fa:hover{
+
+.list-Social li i:hover{
     color: #24c49c;
     transition: 0.7s;
 }
