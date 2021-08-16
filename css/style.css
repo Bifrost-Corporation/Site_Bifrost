@@ -30,7 +30,8 @@ html{
 
 
 body{
-    background: #f3f3f3;
+    background:#f3f3f3;
+    
 }
 
 
@@ -149,7 +150,7 @@ nav{
 }
 
 .img-banner{
-    background:url(../images/5803426.jpg) no-repeat center center;
+    background:url(../images/4Z_2101.w020.n001.1018B.p15.1018.jpg) no-repeat center center;
     z-index: -1;
     position: absolute;
     height: 100%;
@@ -265,7 +266,7 @@ nav{
     text-align: center;
     font-weight:600;
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .card{
@@ -555,6 +556,7 @@ nav{
 /* CONTATO */
 
 .container-grid{
+    
     background-color: #f3f3f3;
     display: flex;
     flex-wrap: wrap;
@@ -573,7 +575,7 @@ nav{
     width:40%;
     height: 300px;
     border:0;
-    box-shadow: 0 0 1em #dcdcdc;
+    
 }
 
 .iconesSuporte{
@@ -597,7 +599,7 @@ nav{
     min-width: 60%;
     
     height: 300px;
-    box-shadow: 0 0 1em #dcdcdc;
+    
 }
 
 .mapa{
@@ -606,7 +608,7 @@ nav{
     min-width:300px;
     height: 300px;
     border:0;
-    box-shadow: 0 0 1em #dcdcdc;
+    
 }
 
 .formContrato{
@@ -616,7 +618,7 @@ nav{
     padding: 5%;
     min-height: 500px;
     width: 100%;
-    box-shadow: 0 0 1em #dcdcdc;
+    
 }
 
 .tituloContrato{
@@ -688,11 +690,18 @@ nav{
     justify-content: center;
 }
 
-hr{
+.hr1{
     background-image: linear-gradient(to right, #2ab2db,#5711fb, #2735e0,#297add,#24c49c );
     height: 5px;
     width: 100%;
 
+}
+.hr2{
+    background: #297add;
+    margin: 8px auto;
+    
+    height: 5px;
+    width: 10%;
 }
 
 
