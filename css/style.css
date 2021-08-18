@@ -818,34 +818,6 @@ nav{
     width: 1.5rem;
 }
 
-.newsletter{
-    display: flex;
-    flex-direction: column;
-}
-
-.newsletter{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-}
-
-.newsletter input{
-    border: none;
-    padding: 0.5rem;
-    border-radius: 0.7rem;
-    margin-top: 0.5rem;
-}
-
-.newsletter button{
-    border: none;
-    padding: 0.5rem;
-    border-radius: 0.7rem;
-    margin-top: 0.5rem;
-    background-color: #0411be;
-    color: #f3f3f3;
-}
-
-
 .Img-Card {
     align-items: center;
     width: 20%
@@ -886,7 +858,7 @@ nav{
     line-height: 28px;
     transition: all 0.3s ease-out;
   }
-  .wrapper .button:nth-child(1):hover .icon{
+  .wrapper  .button:nth-child(1):hover .icon{
     background: #333;
   }
   .wrapper .button:nth-child(2):hover .icon{
