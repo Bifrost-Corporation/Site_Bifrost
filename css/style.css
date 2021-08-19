@@ -1027,7 +1027,6 @@ nav{
         
     }
 }
-
 @media(max-width: 720px) {
     html {
 
@@ -1044,7 +1043,7 @@ font-size:87.5%;
         align-items: center;
         width: 100%
     }
-    
+
     .Img-Card-16-9 {
         align-items: center;
         width: 100%
@@ -1052,10 +1051,25 @@ font-size:87.5%;
     .btn-saberMais{
 
         width: 50%;
-        
+
+    }
+    .Slogan-topo{
+
+
+        font-size: 3.5rem;
+
+
     }
 }
+@media (max-width:420px){
+    .Slogan-topo{
 
+
+        font-size: 3rem;
+
+
+    }
+}
 
 
 @media(max-width: 840px) {
