@@ -600,7 +600,7 @@ nav{
     width: 100%;
     
     height: 250px;
- 
+    
 }
 
 .mapa{
@@ -619,9 +619,6 @@ nav{
     padding: 5%;
     height: 98vh;
     width: 60%;
-    min-height: 500px;
-    width: 100%;
-
     
 }
 
@@ -755,9 +752,9 @@ nav{
     background-color: #282b30;
     color: white;
 
-    /* border-bottom-width: 2rem;
+    border-bottom-width: 2rem;
     border-bottom-style:solid;
-    border-bottom-color:#5711fb */
+    border-bottom-color:#5711fb
 }
 
 
@@ -806,7 +803,9 @@ nav{
     color: #c7c7c7;
 }
 
-
+.div-3{
+    text-align: right;
+}
 
 
 
@@ -823,6 +822,34 @@ nav{
     width: 1.5rem;
 }
 
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.newsletter input{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.newsletter button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+    background-color: #0411be;
+    color: #f3f3f3;
+}
+
+
 .Img-Card {
     align-items: center;
     width: 20%
@@ -836,76 +863,13 @@ nav{
 }
 
 
-.wrapper .button{
-    color: #040C28;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #fff;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:hover{
-    width: 120px;
-  }
-  .wrapper .button .icon{
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 28px;
-    transition: all 0.3s ease-out;
-  }
-  .wrapper  .button:nth-child(1):hover .icon{
-    background: #333;
-  }
-  .wrapper .button:nth-child(2):hover .icon{
-    background: #1DA1F2;
-  }
-  .wrapper .button:nth-child(3):hover .icon{
-    background: #E1306C;
-  }
-  
-  
-  
-  .wrapper .button:nth-child(4):hover .icon{
-    background: #ff0000;
-  }
-  .wrapper .button .icon i{
-    font-size: 1rem;
-    line-height: 18px;
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:hover .icon i{
-    color: #fff;
-  }
-  .wrapper .button span{
-    font-size: 0.8rem;
-    font-weight: 500;
-    line-height: 30px;
-    /* margin-left: 5px; */
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:nth-child(1) span{
-    color: #333;
-  }
-  .wrapper .button:nth-child(2) span{
-    color: #1DA1F2;
-  }
-  .wrapper .button:nth-child(3) span{
-    color: #E1306C;
-  }
-  .wrapper .button:nth-child(4) span{
-    color: #ff0000;
-  }
 
+
+/*.footer-2{
+
+    
+    /* caso queira aquela barrinha do rodapé, usa isso aq 
+}*/
 
 
 
