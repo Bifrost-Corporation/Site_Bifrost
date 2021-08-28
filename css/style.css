@@ -20,13 +20,13 @@ html{
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #dcdcdc;
-  }
+    background-color: #c1b5ff;
+  } 
 
   ::-webkit-scrollbar-thumb {
-    background: #287add;
-    border-radius: 4px;
+    background: #2f01d4;
   }
+
 
 
 body{
@@ -150,7 +150,7 @@ nav{
 }
 
 .img-banner{
-    background:url(../images/4Z_2101.w020.n001.1018B.p15.1018.jpg) no-repeat center center;
+    background:url(../images/bridge.png) no-repeat center center;
     z-index: -1;
     position: absolute;
     height: 100%;
@@ -432,39 +432,38 @@ nav{
 
 /* PARCEIROS BIFROST */
 
+
+.parca-section{
+    background-color: #f7f7f7;
+}
+
 .parca-logo{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    padding: 2rem;
-    
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 .parca-logo div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     opacity:0.5;
     transform: translateY(-5px);
     transition: 0.5s ease;
-    
-}
-
-.parceiros{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+
     transition: 1s;
 }
-.parceiros img{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-    
-    transition: 0.5s ease;
-}
 
-.parca-logo{
-    margin: 1rem;
+.parceiros img{
+    height: 150px;
+    width: 150px;
+    object-fit:scale-down;
+    transition: 0.5s ease;
 }
 
 .parca-logo div span{
