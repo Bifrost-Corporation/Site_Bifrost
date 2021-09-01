@@ -679,11 +679,17 @@
             crossorigin="anonymous"></script>
 
         <script>
-               if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('Site_Bifrost/service-worker.js', {scope: 'Site_Bifrost/'})
-  }
-  
-  // --- Application code here ---
+               if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('Site_Bifrost/service-worker.js', { scope: '/Site_Bifrost/'})
+            // ('/service-worker.js')
+            .then(function (registration) {
+                console.log("success load");
+                console.log(registration);
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+    }
         </script>
 
 </body>
