@@ -680,7 +680,7 @@
 
         <script>
                if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('Site_Bifrost/service-worker.js', { scope: '/Site_Bifrost/'})
+        navigator.serviceWorker.register('/service-worker.js', { scope: '/'})
             // ('/service-worker.js')
             .then(function (registration) {
                 console.log("success load");
