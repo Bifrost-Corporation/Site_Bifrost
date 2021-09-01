@@ -1,14 +1,18 @@
-const CACHE_NAME = 'V1';
-const STATIC_CACHE_URLS = ['/', '/css/style.css', 'index.html'];
-
-self.addEventListener('install', event => {
-  console.log('Service Worker installing.');
+self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-    .then(cache => cache.addAll(STATIC_CACHE_URLS))  
-  )
+    caches.open(cacheName).then(function(cache) {
+      return cache.addAll(
+        [
+          '/css/bootstrap.css',
+          '/css/main.css',
+          '/js/bootstrap.min.js',
+          '/js/jquery.min.js',
+          '/offline.html'
+        ]
+      );
+    })
+  );
 });
-
 
 self.addEventListener('fetch', event => {
   // Cache-First Strategy
