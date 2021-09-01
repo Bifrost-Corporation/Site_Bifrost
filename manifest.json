@@ -75,8 +75,8 @@
           "type": "image/png"
         }
   ],
-  "scope": "/",
-  "start_url": "index.html",
+  "scope": "Site_Bifrost/",
+  "start_url": "Site_Bifrost/index.html",
   "display": "standalone",
   "orientation": "standalone",
   "theme_color": "#282b30",
