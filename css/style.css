@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 html{
     overflow-y: scroll;
@@ -30,8 +30,7 @@ html{
 
 
 body{
-    background:#f3f3f3;
-    
+    background:#f3f3f3; 
 }
 
 
@@ -159,8 +158,8 @@ nav{
 }
 .Slogan-topo{
     
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8rem;
     margin-bottom: 4%;
     font-weight: bold;
     letter-spacing: 0px;
@@ -171,17 +170,32 @@ nav{
     width: 20%;
     text-align: center;
     display:block;
-    border: 1px solid #297add;
     margin-top:30px;
     outline: none;
-    color: #f7f7f7;
-    background: #297add;
+    color: #f3f3f3;
+    background: #287add;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
     transition: 0.8s ease;
 }
+ .parca-logo .btn-saberMais{
+    width: 100%;
+    text-align: center;
+    display:block;
+    margin-top:30px;
+    outline: none;
+    color: #040C28;
+    background: #287add;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.8s ease;
+ }
+.btn-saberMais:hover{
 
+    transform: translateY(5px);
+}
 .Content-text{
     width: 50%;
     color: #f3f3f3;
@@ -231,16 +245,49 @@ nav{
     margin-right: auto;
     text-align: center;
 }
+.left{
+    
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.conheca{
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight:bold;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
 
 /* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
 .sobre{
-    backdrop-filter: blur(10px);
-    background:url(../images/geometric-composition.jpg) no-repeat center center;
-    background-size: cover;
+    
+    background-color: #f7f7f7;
+    
+}
+.box{
+    transform: skewY(5deg);
+    padding:6% auto;
+    padding-bottom: 3rem;
+    background-color: transparent;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin:1% auto;
+    gap: 2rem;
 }
 .servicos{
+    
     background-color: #f3f3f3;
-    background-size: cover;
+    
 }
 .equipe{
     background-color: #f7f7f7;
@@ -248,6 +295,7 @@ nav{
     backdrop-filter: blur(10px);
 }
 .container-flex{
+   
     padding:6% auto;
     padding-left: 12%;
     padding-right: 12%;
@@ -259,14 +307,6 @@ nav{
     margin:1% auto;
     gap: 2rem;
 
-}
-
-.conheca{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-weight:600;
-    margin-top: 5%;
-    margin-bottom: 1%;
 }
 
 .card{
@@ -305,9 +345,9 @@ nav{
 }
 
 .titulo-card{
-    font-weight: 500;
+    font-weight: bold;
     margin-top:20px;
-    color: #646464;
+    color: #1d1d1d;
 
 }
 .text-card{
@@ -381,6 +421,8 @@ nav{
     /* border-radius: 2rem; */
     display: flex;
     max-width: 100%;
+    transform: skewY(10deg);
+  
 }
 
 .Img-Card-4-3 img {
@@ -399,7 +441,7 @@ nav{
     text-align: justify;
     color:#2ab2db;
     margin-bottom: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
     font-weight: bold;
 }
@@ -419,7 +461,7 @@ nav{
     text-align: justify;
     color:#f7f7f7;
     margin-bottom: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
     font-weight: bold;
 }
@@ -485,32 +527,74 @@ nav{
 
 .section-equipe{
     position: relative;
-    background:url(../images/geometric-composition.jpg) no-repeat center center;
+    z-index: 1;
+   
     background-size: cover;
-    min-height:150vh ;
     justify-content: center;
 
-
+   
     
 }
+
+
 .container{
     
-    z-index: 1;
+   
     align-items: center;
-    position: relative;
-    display: flex;
-    max-width:100%;
-    flex-wrap: wrap;
-    background-color: #f3f3f3;
-    justify-content: center;
     
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    overflow: hidden;
+    
+   
     
 
 }
+
+
+/* CAROUSEL SIMPLES */
+
+
+
+.glider{
+    
+    align-items: center;
+    display: flex;
+    background:#f7f7f7;
+    
+    height: 70vh;
+}
+.carousel--simple-prev{
+
+    z-index: 1;
+    color: #646464;
+    cursor: pointer;
+    font-size: 2.5rem;
+    position: absolute;
+    align-items: center;
+    left: 2%;
+}
+.carousel--simple-next{
+
+    z-index: 1;
+    color: #646464;
+    cursor: pointer;
+    font-size: 2.5rem;
+    position: absolute;
+    align-items: center;
+    right: 2%;
+}
+
+/* FIM */
+
+
 .container .card-equipe{
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 300px ;
+    height: 400px !important;
     background-color: #f7f7f7;
     margin: 20px;
     border-radius: 15px;
@@ -518,7 +602,7 @@ nav{
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 1em #dcdcdc;
+    
 }
 .container .card-equipe .content{
     position: relative;
@@ -551,7 +635,7 @@ nav{
     object-fit: cover;
 }
 .container .card-equipe .content .contentBx .tituloCardEquipe{
-    color: #646464;
+    color: #1d1d1d;
     margin:20px 0 10px;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -670,6 +754,7 @@ nav{
 }
 
 .tituloContrato{
+    font-family: 'Poppins', arial;
     text-transform: capitalize;
     text-align: center;
     font-size: 1.7rem;
@@ -1153,6 +1238,13 @@ font-size:87.5%;
 
 
     }
+    .glider{
+    
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    
 }
 
 
