@@ -75,7 +75,8 @@
           "type": "image/png"
         }
   ],
-  "start_url": "index.html",
+  "scope": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "orientation": "standalone",
   "theme_color": "#282b30",
