@@ -1,1 +1,0 @@
-http-server -S -o -C "localhost+2.pem" -K "localhost+2-key.pem"

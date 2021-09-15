@@ -1,0 +1,155 @@
+
+/* CONTATO */
+
+.container-grid{
+    
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 12%;
+    padding-bottom: 5rem;
+    gap: 0rem;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background:#f7f7f7;
+    padding:60px 20px;
+    width:40%;
+    height:98vh;
+    border:0;
+    
+}
+
+.iconesSuporte{
+    
+    width:100%;
+    display: flex;
+
+}
+
+.textSuporte{
+    margin-left: 8px;
+    display:list-item;
+    list-style: none;
+}
+
+.titulo-Suporte{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.endereco{
+    width: 100%;
+    
+    height: 250px;
+    
+}
+
+.mapa{
+    max-width: 100%;
+    width: 100%;
+    min-width:200px;
+    height: 250px;
+    border:0;
+    
+}
+
+.formContrato{
+
+    text-align: space-around;
+    background:#ebebeb;
+    padding: 5%;
+    height: 98vh;
+    width: 60%;
+    
+}
+
+.tituloContrato{
+    font-family: 'Poppins', arial;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.textContrato{
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 40px;
+    justify-content:center;
+}
+
+.linhaFormulario{
+
+   
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin:0 auto;
+    width:90%;
+}
+.linhaFormulario i{
+    margin-right:10px;
+    font-size: 15px;
+    color: #287add;
+}
+
+.inputType1{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:15px ;
+    background-color: transparent;
+    outline: 1px solid #dcdcdc;
+    border-bottom: 1px solid #1d1d1d;
+    width: 100%;
+    border:0px;
+
+}
+
+.assunto{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    
+
+}
+
+.textArea{
+    margin-top: 20px;
+    width: 100%;
+    padding:15px ;
+    padding-bottom: 50px;
+    border: 0px;
+    outline: 1px solid #dcdcdc;
+    border:0px;
+    background-color: transparent;
+}
+.divBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr1{
+    background-image: linear-gradient(to right, #2ab2db,#5711fb, #2735e0,#297add,#24c49c );
+    height: 5px;
+    width: 100%;
+
+}
+.hr2{
+    background: #297add;
+    margin: 8px auto;
+    
+    height: 5px;
+    width: 10%;
+}
+

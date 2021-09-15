@@ -1,0 +1,235 @@
+
+/* MEDIAS */
+
+@media(max-width: 1080px) {
+    html {
+        font-size:93.75%;
+    }
+    .logo{
+        width: 93.75%;
+    }
+    .btn-saberMais{
+
+        width: 30%;
+        
+    }
+}
+@media (max-width:999px){
+    body{
+        overflow: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 12vh;
+        right:0;
+        width:50vw;
+        height: 92vh;
+        background: #f3f3f3;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-links{
+        color:#1d1d1d;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: 0.6s;
+    }
+    .nav-links:hover{
+        color:#287add;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: 0.6s;
+    }
+    .nav-list li{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav-list.active{
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+      }
+
+      .mobile-menu.active .line2 {
+        opacity: 0;
+      }
+
+      .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-3px, -5px);
+      }
+    .linhaFormulario{
+        display: block;
+    }
+    .card-horizontal {
+    
+       
+        height:auto;
+        
+    }
+    
+    .card-horizontal2 {
+       
+        height:auto;
+        
+    }
+    
+}
+@media(max-width: 840px) {
+    .card-horizontal {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem  1rem;
+    }
+    .card-horizontal2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .hrz-text-card1 {
+        
+        width: 100%;
+        
+    }
+    .hrz-text-card2 {
+        
+        width: 100%;
+        
+    }
+    .Img-Card-4-3 {
+        align-items: center;
+        width: 60%
+    }
+    
+    .Img-Card-16-9 {
+        align-items: center;
+        width: 60%
+    }
+    .btn-saberMais{
+
+        width: 40%;
+        
+    }
+}
+@media (max-width:765px){
+
+    .icones{
+
+        width:100%;
+        padding: 10px 0;
+
+    }
+    .endereco{
+        width: 100%;
+    }
+    .container-grid{
+        margin:0;
+    }
+    .formContrato{
+
+        width: 100%;
+        
+    }
+}
+@media(max-width: 720px) {
+    html {
+
+font-size:87.5%;
+    }
+
+    .logo{
+        width: 87.5%;
+    }
+    .icones{
+        width:100%;
+    }
+    .Img-Card-4-3 {
+        align-items: center;
+        width: 100%
+    }
+
+    .Img-Card-16-9 {
+        align-items: center;
+        width: 100%
+    }
+    .btn-saberMais{
+
+        width: 50%;
+
+    }
+    .Slogan-topo{
+
+
+        font-size: 3.5rem;
+
+
+    }
+}
+@media (max-width:420px){
+    .Slogan-topo{
+
+
+        font-size: 3rem;
+
+
+    }
+    .glider{
+    
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    
+}
+
+
+@media(max-width: 840px) {
+    .card-horizontal {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-horizontal2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-1 {
+        flex-direction: column;
+    
+    }
+    .footer-1 .div-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-2{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-3{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 .div-3 .newsletter{
+        padding: 2rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+}

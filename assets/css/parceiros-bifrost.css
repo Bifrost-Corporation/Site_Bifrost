@@ -1,0 +1,46 @@
+/* PARCEIROS BIFROST */
+
+
+.parca-section{
+    background-color: #f7f7f7;
+}
+
+.parca-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.parca-logo div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity:0.5;
+    transform: translateY(-5px);
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+
+    transition: 1s;
+}
+
+.parceiros img{
+    height: 150px;
+    width: 150px;
+    object-fit:scale-down;
+    transition: 0.5s ease;
+}
+
+.parca-logo div span{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.parca-logo div:hover{
+
+    opacity:1;
+    transform: translateY(-15px);
+    transition: 0.5s ease;
+}

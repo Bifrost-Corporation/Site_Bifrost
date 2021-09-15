@@ -1,0 +1,165 @@
+.footer-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    background-color: #282b30;
+    color: white;
+}
+
+
+
+.bifrost-img {
+    height: 4rem;
+    width: auto;
+    margin: 0;
+}
+
+.div-1 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+
+.div-1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-2{
+    
+    text-align: left;
+}
+.div-2 ul li {
+    list-style:none;
+}
+.div-2 ul li a{
+    font-size: 0.80rem;
+    color:#f3f3f3;
+}
+
+.div-2 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+.div-3 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #c7c7c7;
+}
+
+
+
+
+
+.div-3  {
+    /* background-color: #b0b0b0; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    list-style-type: none;
+}
+
+.div-3 .rodape-social svg {
+    width: 1.5rem;
+}
+
+
+
+
+.Img-Card {
+    align-items: center;
+    width: 20%
+}
+
+.Img-Card > img {
+    object-fit: cover;
+    border-radius: 2rem;
+    display: flex;
+    width: 100%
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper .button{
+    color: #040C28;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 120px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 28px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #333;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  
+  
+  
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 1rem;
+    line-height: 18px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 30px;
+    /* margin-left: 5px; */
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
