@@ -1,0 +1,94 @@
+.inicio{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+         /*For browsers that do not support gradients */
+    /*background-image: linear-gradient(to bottom right, rgb(139, 13, 223), rgb(98, 0, 255));*/
+    height: 95vh;
+}
+
+.img-banner{
+    background:url(../images/bridge.png) no-repeat center center;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.Slogan-topo{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8rem;
+    margin-bottom: 4%;
+    font-weight: bold;
+    letter-spacing: 0px;
+    
+}
+.btn-saberMais{
+
+    width: 20%;
+    text-align: center;
+    display:block;
+    margin-top:30px;
+    outline: none;
+    color: #f3f3f3;
+    background: #287add;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+ .parca-logo .btn-saberMais{
+    width: 100%;
+    text-align: center;
+    display:block;
+    margin-top:30px;
+    outline: none;
+    color: #040C28;
+    background: #287add;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.8s ease;
+ }
+.btn-saberMais:hover{
+
+    transform: translateY(5px);
+}
+.Content-text{
+    width: 50%;
+    color: #f3f3f3;
+}
+.Content-text p{
+    font-size: 1.25rem;
+}
+.list-Social{
+    flex-direction: column;
+    width: 20px;
+}
+.list-Social li{
+    list-style: none;
+    
+}
+.list-Social li a i{
+    color: white;
+    margin-bottom: 2rem;
+}
+.insta{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.insta:hover{
+    color: #24c49c;
+    transition: 0.7s;
+}
+
+
+.list-Social li i:hover{
+    color: #24c49c;
+    transition: 0.7s;
+}
+
+/* ENT O BANNER ACABOU, MAS EU N ACABEI AINDA ENT N ACABOU*/

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+@import url("nav-menu.css");
+@import url("banner.css");
+@import url("container-pai-coruja.css");
+@import url("equipe-dev.css");
+@import url("contato.css");
+@import url("parceiros-bifrost.css");
+@import url("rodape.css");
+@import url("os-media.css");
+
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: Lexend, sans-serif;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #c1b5ff;
+  } 
+
+  ::-webkit-scrollbar-thumb {
+    background: #2f01d4;
+  }
+
+body{
+    background:#f3f3f3; 
+}
+
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+
+.fraseTopo{
+    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.left{
+    
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.conheca{
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight:bold;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+/* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
+
+.sobre{
+    background-color: #f7f7f7;
+}
+.box{
+    transform: skewY(5deg);
+    padding:6% auto;
+    padding-bottom: 3rem;
+    background-color: transparent;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin:1% auto;
+    gap: 2rem;
+}
+.servicos{
+    background-color: #f3f3f3;
+    
+}
+.equipe{
+    background-color: #f7f7f7;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.container-flex{
+   
+    padding:6% auto;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 3rem;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin:1% auto;
+    gap: 2rem;
+}
+
+
+/* CARDS */
+
+.card{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    max-width: 250px;
+    padding:40px 10px ;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 1em #dcdcdc;
+    transition: 0.7s;
+}
+
+.card:hover{
+    background:#f7f7f7;
+}
+.servico1{
+    background: #f7f7f7;
+    border-radius: 5px;
+    border-top: 5px solid #24c49c;
+    transition: 0.5s ease ; 
+}
+
+.servico2{
+    border-radius: 5px;
+    background:#f7f7f7;
+    border-top: 5px solid #287add;
+    transition: 0.7s;
+    
+}
+
+.titulo-card{
+    font-weight: bold;
+    margin-top:20px;
+    color: #1d1d1d;
+
+}
+.text-card{
+    margin-top:5%;
+    color: #1d1d1d;
+
+
+}
+.Img-card-topo{
+
+    border-radius:0px;
+    max-width: 40%;
+}
+.Img-card-equipe{
+    border-radius:180px;
+    max-width: 70%;
+}
+
+
+
+/* THE RODAPE */
+
+
+
+
+
+
+
+
+
+
+
