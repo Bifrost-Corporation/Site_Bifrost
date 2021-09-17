@@ -25,7 +25,7 @@
     background:#f7f7f7;
 }
 .carousel--simple-prev{
-
+    user-select: none;
     z-index: 1;
     color: #646464;
     cursor: pointer;
@@ -35,7 +35,7 @@
     left: 2%;
 }
 .carousel--simple-next{
-
+    user-select: none;
     z-index: 1;
     color: #646464;
     cursor: pointer;
