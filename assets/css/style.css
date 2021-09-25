@@ -54,15 +54,16 @@ p{
     
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px 0px;
     width: 100%;
+    color: #2f3747;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-.left{
+.frase-topo-contato{
     
     justify-content: left;
     align-items: left;
@@ -74,104 +75,101 @@ p{
     margin-right: auto;
     text-align: left;
 }
-
-.conheca{
+.frase-topo-servicos{
+    
+    justify-content: left;
+    align-items: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding: 0rem 12%;
+    width: 100%;
+    text-align: left;
+    background-color: #f7f7f7;
+}
+.p-negrito-azul-frasetopo{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color:#2735E0;
+}
+.titulo-section{
     font-family: 'Poppins', sans-serif;
     
     font-weight:bold;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 1%;
 }
 
 /* AQUI VC VAI TER UM CONTAINER FLEX, CARACTERISTICA? FLEX BOX NÉ FILHÃO, USA PRA DEIXAR RESPONSIVO*/
 
-.sobre{
-    background-color: #f7f7f7;
-}
-.box{
-    transform: skewY(5deg);
-    padding:6% auto;
-    padding-bottom: 3rem;
-    background-color: transparent;
-    justify-content:center;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin:1% auto;
-    gap: 2rem;
-}
-.servicos{
-    background-color: #f3f3f3;
-    
-}
-.equipe{
-    background-color: #f7f7f7;
-    background-size: cover;
-    backdrop-filter: blur(10px);
-}
+
 .container-flex{
    
     padding:6% auto;
     padding-left: 12%;
     padding-right: 12%;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     justify-content:center;
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    margin:1% auto;
+    margin:0% auto;
     gap: 2rem;
 }
+.sobre{
+    background-color: #f3f3f3;
+}
 
+
+.equipe{
+    background-color: #f7f7f7;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.servicos{
+    padding:0% auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0rem;
+    background-color: #f7f7f7;
+    
+}
 
 /* CARDS */
 
 .card{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #f7f7f7;
     backdrop-filter: blur(10px);
-    border-radius: 15px;
+    border-radius: 10px;
     max-width: 250px;
-    padding:40px 10px ;
+    color: #2f3747;
+    padding:40px 20px ;
+    border: 0px solid #2735E0;
     justify-content: center;
     text-align: center;
     box-shadow: 0 0 1em #dcdcdc;
     transition: 0.7s;
 }
 
-.card:hover{
-    background:#f7f7f7;
-}
-.servico1{
-    background: #f7f7f7;
-    border-radius: 5px;
-    border-top: 5px solid #24c49c;
-    transition: 0.5s ease ; 
-}
-
-.servico2{
-    border-radius: 5px;
-    background:#f7f7f7;
-    border-top: 5px solid #287add;
-    transition: 0.7s;
-    
-}
-
 .titulo-card{
+    
     font-weight: bold;
-    margin-top:20px;
-    color: #1d1d1d;
+    margin-top:10px;
+    color: #2f3747;
 
 }
 .text-card{
-    margin-top:5%;
+    
+    margin-top:10%;
     color: #1d1d1d;
-
 
 }
 .Img-card-topo{
 
     border-radius:0px;
-    max-width: 40%;
+    font-size: 5rem;
+    text-align: center;
+    max-width: 35%;
+    margin: 0 auto;
 }
 .Img-card-equipe{
     border-radius:180px;
@@ -180,7 +178,70 @@ p{
 
 
 
-/* THE RODAPE */
+/* Plataforma */
+
+
+.container-plataformas{
+    
+    padding: 2rem 12% 5rem 12%;
+    width: 100%;
+
+    align-items: center;
+    flex-wrap: wrap;
+    
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.container-ilustration{
+    width: 50%;
+    padding-right: 1rem;
+}
+.ilustration-plataform-content{
+    width: 100%;
+    margin-top: 0rem;
+}
+.ilustration-plataform-content img{
+    max-width: 100%;
+}
+
+.container-cards-plataformas{
+    width: 50%;
+    
+    gap: 1rem;
+    display: flex;
+    
+    
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container-cards-plataformas .card{
+    background-color: #f7f7f7;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    min-width: calc(100%/3);
+    min-height:200px ;
+    color: #2f3747;
+    padding:40px 20px ;
+    border: 0px solid #2735E0;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 1em #dcdcdc;
+    transition: 0.7s;
+}
+.container-cards-plataformas .Img-card-topo{
+
+    border-radius:0px;
+    font-size: 5rem;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color:#2f3747;
+}
 
 
 

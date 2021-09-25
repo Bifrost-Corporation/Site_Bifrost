@@ -27,17 +27,25 @@
 }
 .btn-saberMais{
     border: none;
-    width: 20%;
+    width:10vw;
     text-align: center;
-    display:block;
+    display: block;
     margin-top:30px;
+    align-items: center;
     outline: none;
-    color: #f3f3f3;
-    background: #287add;
+    font-weight: bold;
+    color: #f7f7f7;
+    background: #2735E0;
     padding: 10px 20px;
+    
     border-radius: 20px;
     text-decoration: none;
     transition: 0.8s ease;
+}
+.btn-saberMais p{
+    color: #f7f7f7;
+    transition: 0.7s ease;
+    padding: 2px 5px;
 }
  .parca-logo .btn-saberMais{
     width: 100%;
@@ -53,8 +61,10 @@
     transition: 0.8s ease;
  }
 .btn-saberMais:hover{
+    
     transform: translateY(5px);
 }
+
 .Content-text{
     width: 50%;
     color: #f3f3f3;

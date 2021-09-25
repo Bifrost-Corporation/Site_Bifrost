@@ -26,7 +26,8 @@
 }
 
 .iconesSuporte{
-    
+    gap: 1rem;
+    padding:.5rem;
     width:100%;
     display: flex;
 

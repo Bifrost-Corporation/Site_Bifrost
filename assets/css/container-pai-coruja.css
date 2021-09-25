@@ -14,9 +14,9 @@
 /* O CARD HORIZONTAL */
 .card-horizontal {
     
-    background-color:#f7f7f7;
+    background-color:#dee5eb;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     height: 75vh;
     padding: 2rem 12%;
@@ -27,7 +27,7 @@
     background-image: linear-gradient(to bottom right, #2ab2db, #2735e0,#297add );
     display: flex;
     height: 85vh;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     padding: 3rem 11% ;
     align-items: center;
@@ -35,7 +35,7 @@
 
 .Img-Card-4-3 {
     align-items: center;
-    width: 40%
+    width: 50%
 }
 
 .Img-Card-16-9 {
@@ -49,7 +49,7 @@
     /* border-radius: 2rem; */
     display: flex;
     max-width: 100%;
-    transform: skewY(10deg);
+    
   
 }
 
@@ -62,12 +62,12 @@
 
 
 .hrz-text-card1 { 
-    width: 60%;
+    width: 50%;
     padding: 5rem 2rem;
 }
 .hrz-text-card1 h1{
     text-align: justify;
-    color:#2ab2db;
+    color:#2735e0;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
@@ -79,7 +79,7 @@
 }
 
 .hrz-text-card1 p{
-    color: #1d1d1d;
+    
     font-weight: 500;
     font-size: 1rem;
 }
