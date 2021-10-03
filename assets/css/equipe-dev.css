@@ -5,6 +5,7 @@
     z-index: 1;
     background-size: cover;
     justify-content: center;
+   
 }
 
 
@@ -21,14 +22,15 @@
 
 /* CAROUSEL SIMPLES */
 .glider{
+    
     align-items: center;
     display: flex;
-    background:#f3f3f3;
+    background:transparent;
 }
 .carousel--simple-prev{
     user-select: none;
     z-index: 1;
-    color: #646464;
+    color: #1d1d1d;
     cursor: pointer;
     font-size: 3rem;
     position: absolute;
@@ -38,7 +40,7 @@
 .carousel--simple-next{
     user-select: none;
     z-index: 1;
-    color: #646464;
+    color: #1d1d1d;
     cursor: pointer;
     font-size: 3rem;
     position: absolute;

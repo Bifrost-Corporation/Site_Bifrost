@@ -14,17 +14,23 @@
 /* O CARD HORIZONTAL */
 .card-horizontal {
     
-    background-color:#dee5eb;
+    background-image: url(../images/wave-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    text-align: center;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    height: 75vh;
-    padding: 2rem 12%;
+    justify-content: center;
+    height: 50vh;
+    padding: 3rem 12%;
     align-items: center;
+
 }
 
 .card-horizontal2 {
-    background-image: linear-gradient(to bottom right, #2ab2db, #2735e0,#297add );
+    background:#2a27b9;
     display: flex;
     height: 85vh;
     flex-direction: row;
@@ -62,15 +68,17 @@
 
 
 .hrz-text-card1 { 
-    width: 50%;
-    padding: 5rem 2rem;
+    width: 100%;
+    padding: 0rem 2rem;
 }
 .hrz-text-card1 h1{
-    text-align: justify;
+    text-align: center;
     color:#2735e0;
+    
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .hrz-text-card2 {
@@ -79,14 +87,15 @@
 }
 
 .hrz-text-card1 p{
-    
+    margin-bottom: 5px;
+    text-align: center;
     font-weight: 500;
     font-size: 1rem;
 }
 
 .hrz-text-card2 h1{
-    letter-spacing: 1px;
-    text-align: justify;
+    letter-spacing:5px;
+    
     color:#f7f7f7;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -98,6 +107,35 @@
     font-weight: 500;
     font-size: 1rem;
 }
+.hrz-text-card2 .btn-saberMais{
+    border: none;
+    width:10vw;
+    text-align: center;
+    display: block;
+    margin-top:30px;
+    align-items: center;
+    outline: none;
+    font-weight: bold;
+    color: #f7f7f7;
+    background: linear-gradient(to right, #2735E0,#70e1f5 );
+    padding: 10px 20px;
+    
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+.hrz-text-card2 .btn-saberMais p{
+    color: #f7f7f7;
 
+    transition: 0.7s ease;
+    padding: 2px 5px;
+}
+
+.ul-card-especificacoes{
+    color: #f7f7f7;
+    list-style: circle;
+    font-size: 1.2rem;
+    font-weight:lighter;
+}
 
 

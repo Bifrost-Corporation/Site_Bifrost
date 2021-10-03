@@ -57,7 +57,7 @@ p{
     padding: 40px 0px;
     width: 100%;
     color: #2f3747;
-    margin-top: 1%;
+    margin-top: 3%;
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -75,16 +75,28 @@ p{
     margin-right: auto;
     text-align: left;
 }
+.frase-topo-equipe{
+    
+    justify-content: right;
+    align-items:right;
+    padding: 0rem 12%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
 .frase-topo-servicos{
     
     justify-content: left;
     align-items: left;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 0%;
     padding: 0rem 12%;
     width: 100%;
     text-align: left;
-    background-color: #f7f7f7;
+    
 }
 .p-negrito-azul-frasetopo{
     font-weight: bold;
@@ -116,21 +128,27 @@ p{
     gap: 2rem;
 }
 .sobre{
-    background-color: #f3f3f3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+    
 }
 
 
 .equipe{
-    background-color: #f7f7f7;
+    
     background-size: cover;
-    backdrop-filter: blur(10px);
+    
 }
 .servicos{
     padding:0% auto;
     padding-left: 0%;
     padding-right: 0%;
     padding-bottom: 0rem;
-    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../images/wave.svg);
     
 }
 
@@ -230,7 +248,7 @@ p{
     border: 0px solid #2735E0;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0 1em #dcdcdc;
+    box-shadow: 0 0 2em #dcdcdc;
     transition: 0.7s;
 }
 .container-cards-plataformas .Img-card-topo{

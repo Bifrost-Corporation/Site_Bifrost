@@ -64,7 +64,8 @@
 .formContrato{
     border-radius: 1rem;
     text-align: space-around;
-    background:#ebebeb;
+    background:url(../images/blob-haikei.svg);
+    background-size: cover;
     padding: 5%;
     /* height: 98vh; */
     width: 60%;
