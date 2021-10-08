@@ -5,10 +5,12 @@
     z-index: 1;
     background-size: cover;
     justify-content: center;
+   
 }
 
 
 .container{
+    padding: 2rem 12%;
     align-items: center;
     display: flex;
     width:100%;
@@ -20,26 +22,27 @@
 
 /* CAROUSEL SIMPLES */
 .glider{
+    
     align-items: center;
     display: flex;
-    background:#f7f7f7;
+    background:transparent;
 }
 .carousel--simple-prev{
-
+    user-select: none;
     z-index: 1;
-    color: #646464;
+    color: #1d1d1d;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3rem;
     position: absolute;
     align-items: center;
     left: 2%;
 }
 .carousel--simple-next{
-
+    user-select: none;
     z-index: 1;
-    color: #646464;
+    color: #1d1d1d;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3rem;
     position: absolute;
     align-items: center;
     right: 2%;

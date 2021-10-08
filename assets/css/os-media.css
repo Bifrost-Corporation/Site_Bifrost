@@ -19,11 +19,12 @@
         overflow: hidden;
     }
     .nav-list{
+        overflow-y: auto;
         position: absolute;
-        top: 12vh;
+        top: 0vh;
         right:0;
-        width:50vw;
-        height: 92vh;
+        width:100vw;
+        height: 100vh;
         background: #f3f3f3;
         flex-direction: column;
         align-items: center;
@@ -52,7 +53,12 @@
     .mobile-menu{
         display: block;
     }
+    .mobile-menu.active div{
+        
+        background-color: #287add;
+    }
     .nav-list.active{
+
         transform: translateX(0);
     }
     @keyframes navLinkFade {
@@ -171,15 +177,32 @@ font-size:87.5%;
     }
     .btn-saberMais{
 
-        width: 50%;
+        width: 100%;
 
+    }
+    .hrz-text-card2 .btn-saberMais{
+        
+        width:100%;
+        
     }
     .Slogan-topo{
 
 
         font-size: 3.5rem;
 
-
+    }
+    .container-ilustration{
+        width: 100% !important;
+    }
+    .container-cards-plataformas{
+        width: 100% !important;
+        padding-right: 0rem;
+        flex-wrap: wrap;
+    }
+    .container-cards-plataformas .card{
+        
+        min-width: 100% !important;
+        
     }
 }
 @media (max-width:420px){
@@ -195,6 +218,9 @@ font-size:87.5%;
         padding-left: 0;
         padding-right: 0;
         
+    }
+    .ilustration-plataform-content{
+        display: none;
     }
     
 }

@@ -14,6 +14,7 @@
 .sticky .logo .st6{fill:none;stroke:#287ADD;stroke-width:8;stroke-miterlimit:10; transition: 0.5s;}
 .mobile-menu{
     cursor: pointer;
+    z-index: 1;
     display: none;
 }
 .mobile-menu div {
@@ -50,7 +51,7 @@
 
 nav{
     transition: 0.4s;
-    padding: 60px 0px;
+    padding: 50px 0px;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -64,6 +65,7 @@ nav{
 .sticky{
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.7);
+    box-shadow:  0 0 2em #dcdcdc;
     backdrop-filter: blur(10px);
 
 }

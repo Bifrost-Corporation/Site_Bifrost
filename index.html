@@ -207,7 +207,9 @@
             <p class="text-Topo">Bem Vindo a Bifrost</p>
             <h1 class="Slogan-topo">Conectando Mundos</h1>
             <p class="text-Topo"></p>
-            <a class="btn-saberMais" href="#Sobre">Ver Mais</a>
+            <a class="btn-saberMais" href="#Sobre">
+                <p>Ver Mais</p>
+            </a>
         </div>
 
         <div class="right-side">
@@ -230,18 +232,26 @@
         </div>
     </main>
 
-    <section class="container-flex sobre">
 
-        <div id="Sobre" class="fraseTopo">
-            <h1 class="conheca">Sobre nós</h1>
-            <p><strong>Conheça um pouco da nossa história</strong></p>
+
+
+
+    <section id="Sobre" class="container-flex sobre">
+
+        <div class="fraseTopo">
+
+            <h1 class="titulo-section">Descrição</h1>
+            <p>A <strong style="color:#2735E0">Bifrost©</strong> é uma startup de desenvolvimento de software,que busca
+                trazer soluções<br>
+                para os problemas
+                de
+                seus clientes de uma forma rápida e eficaz.</p>
         </div>
 
         <div class="card">
-            <img class="Img-card-topo" src="assets/images/success.png">
+            <img class="Img-card-topo" src="assets/images/rocket.png">
             <h2 class="titulo-card">Visão do futuro</h2>
-            <p class="text-card">Conectando Mundos é o nosso slogan, e é isso que criaremos com visão futura, com um
-                grande foco em comunicação, teremos um mundo conectado através da tecnologia.</p>
+            <p class="text-card">Focaremos em comunicação, teremos um mundo conectado através da tecnologia.</p>
         </div>
         <div class="card">
             <img class="Img-card-topo" src="assets/images/target.png">
@@ -260,25 +270,40 @@
 
 
 
-    <section class="container-flex servicos">
-
-        <div id="Serviços" class="fraseTopo">
-            <h1 class="conheca">Plataformas</h1>
-
-            <p>Plataformas que a <strong>Bifrost</strong> atua </p>
+    <section id="Serviços" class="container-flex servicos">
+        <div class="fraseTopo frase-topo-servicos">
+            <h1 class="titulo-section">Plataformas</h1>
+            <p>Plataformas que a <strong style="color:#2735E0">Bifrost©</strong> atua </p>
         </div>
 
-        <div class="card servico2">
-            <img class="Img-card-topo" src="assets/images/celular.png">
-            <h2 class="titulo-card">Mobile</h2>
-            <p class="text-card">Desenvolvimento Mobile</p>
-        </div>
-        <div class="card servico1">
-            <img class="Img-card-topo" src="assets/images/pc.png">
-            <h2 class="titulo-card">Web</h2>
-            <p class="text-card">Desenvolvimento Web, criamos Site </p>
-        </div>
+        <div class="container-plataformas">
+            <div class="container-ilustration">
 
+                <div class="ilustration-plataform-content ">
+                    <img src="assets/images/Mar-Business_1.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="container-cards-plataformas">
+                <div class="card">
+                    <i class="fa fa-mobile Img-card-topo" aria-hidden="true"></i>
+                    <h2 class="titulo-card">Mobile</h2>
+                    <p class="text-card"></p>
+                </div>
+
+                <div class="card">
+                    <i class="fa fa-desktop Img-card-topo" aria-hidden="true"></i>
+                    <h2 class="titulo-card">Desktop</h2>
+                    <p class="text-card"></p>
+                </div>
+                <div class="card">
+                    <i class="fa fa-code Img-card-topo" aria-hidden="true"></i>
+                    <h2 class="titulo-card">Web</h2>
+                    <p class="text-card"></p>
+                </div>
+
+            </div>
+        </div>
 
     </section>
 
@@ -286,33 +311,43 @@
     <section id="PaiCoruja">
 
         <div class="card-horizontal">
-            <div class="Img-Card-4-3 ">
-                <img src="assets/images/43279.jpg" alt="">
-            </div>
+            <!--<div class="Img-Card-4-3 ">
+                <img src="assets/images/telas.png" alt="">
+            </div>-->
 
             <div class="hrz-text-card1">
+                <p>Bifrost-Corporation ©</p>
                 <h1>
-                    <img width="30px" style="margin-right: 20px;" src="assets/images/pai-logo-compact.png">Pai Coruja
+                    Pai Coruja
                 </h1>
-                <p>Como um sistema web, com ajuda de um aplicativo móvel, pode ajudar a melhorar a comunicação entre
-                    escolas e responsáveis e fazer eles serem mais participativos na educação de seus filhos?
-                </p>
+
+                <!--<a class="btn-saberMais" href="#Responsivo">
+                    <p>Ver mais</p>
+                </a>-->
             </div>
 
         </div>
 
-        <div class="card-horizontal2">
+        <div id="Responsivo" class="card-horizontal2">
             <div class="Img-Card-16-9 ">
                 <img src="assets/images/telas.png" alt="">
             </div>
 
             <div class="hrz-text-card2">
-                <h1>Compatibilidade</h1>
-                <p>Agora você pode conversar
+                <h1>Baixe já em seu dispositivo</h1>
+                <ul class="ul-card-especificacoes">
+                    <li>Responsividade</li>
+                    <li>Converse diretamente com a escola sem sair de casa</li>
+                    <li>Saiba o que acontece na escola de seu filho</li>
+                </ul>
+                <!--<p>Agora você pode conversar
                     direto com o professor de seu filho, secretaria, ver as novidades da escola, consultar a ‘agenda
                     escolar’ de seu filho sem intermediários, tudo de uma forma fácil e prática, seja pelo nosso sistema
                     web ou por nossa versão mobile.
-                </p>
+                </p>-->
+                <a class="btn-saberMais" href="#">
+                    <p>Conhecer</p>
+                </a>
             </div>
 
         </div>
@@ -320,9 +355,12 @@
 
 
     <section class="section-equipe">
-        <div id="Equipe" class="fraseTopo ">
-            <h1 class="conheca">Equipe</h1>
-            <p><strong>Tudo mundo que trabalha aqui na Bifrost</strong></p>
+        <div id="Equipe" class="fraseTopo frase-topo-equipe">
+            <h1 class="titulo-section">Equipe </h1>
+            <p> Tudo mundo que trabalha aqui na <strong style="color:#2735E0">Bifrost©</strong> </p>
+
+
+
         </div>
 
 
@@ -494,8 +532,8 @@
 
             </div>
 
-            <i aria-label="Previous" class="arrow-circle-o-left carousel--simple-prev">«</i>
-            <i aria-label="Next" class="arrow-circle-o-right carousel--simple-next">»</i>
+            <i aria-label="Previous" class="fa fa-angle-left carousel--simple-prev"></i>
+            <i aria-label="Next" class="fa fa-angle-right carousel--simple-next"></i>
             <div role="tablist" class="carousel--simple-dots"></div>
 
         </div>
@@ -510,16 +548,17 @@
 
     <section id="Contato" class="container-grid">
 
-        <div id="Contato" class="fraseTopo left">
-            <h1 class="conheca">Contato</h1>
+        <div id="Contato" class="fraseTopo frase-topo-contato">
+            <h1 class="titulo-section">Contato</h1>
 
-            <p>Todas as formas de falar com a <strong>Bifrost</strong> e nosso endereço</p>
+            <p>Todas as formas de falar com a <strong style="color:#2735E0">Bifrost</strong> e nosso endereço</p>
         </div>
 
 
         <div class="icones">
 
             <h1 class="tituloContrato">Endereço</h1>
+            <hr class="hr2">
             <div class="endereco">
                 <iframe class="mapa"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4314718210435!2d-46.401794885543225!3d-23.5529422671654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce65086cafaf55%3A0xf7da96815e7611da!2sETEC%20de%20Guaianases!5e0!3m2!1spt-BR!2sbr!4v1628680776822!5m2!1spt-BR!2sbr"
@@ -605,8 +644,8 @@
 
     <section class="container-flex parca-section">
         <div id="Parca" class="fraseTopo">
-            <h1 class="conheca">Nossos Parceiros</h1>
-
+            <h1 class="titulo-section">Nossos Parceiros</h1>
+            <p>Todas empresas parceiras da <strong style="color:#2735E0">Bifrost</strong></p>
         </div>
         <div class="parceiros">
             <div class="parca-logo">
