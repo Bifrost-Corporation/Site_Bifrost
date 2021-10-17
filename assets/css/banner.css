@@ -66,6 +66,8 @@
 }
 
 .Content-text{
+    margin-left: -60px;
+    margin-top: 160px;
     width: 50%;
     color: #f3f3f3;
 }
